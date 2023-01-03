@@ -20,11 +20,11 @@ https://www.springframework.org/schema/context/spring-context.xsd">
  <property name="dataSource" >
 <ref bean = "ds"/>
  </property>
- 
-
-
    </bean>
 
+<bean class = "com.springcore.jdbc.dao.StudentDaoImpl" name  = "StudentDao">
+    <property name="jdbctemplate" ref = "jdbcTempLate"/>
+</bean>
 
 
 

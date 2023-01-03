@@ -1,4 +1,4 @@
-package com.springcore.jdbc;
+package com.springcore.jdbc.Entities;
 
 public class Student {
 private int ID ;
@@ -16,6 +16,9 @@ public String getName() {
 public void setName(String name) {
 	this.name = name;
 }
+public Student() {
+	super();
+	}
 public String getCity() {
 	return city;
 }
