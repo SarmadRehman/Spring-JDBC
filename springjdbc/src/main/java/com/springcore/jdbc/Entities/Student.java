@@ -25,6 +25,10 @@ public String getCity() {
 public void setCity(String city) {
 	this.city = city;
 }
+@Override
+public String toString() {
+	return "Student [ID=" + ID + ", name=" + name + ", city=" + city + "]";
+}
 public Student(int iD, String name, String city) {
 	super();
 	ID = iD;
