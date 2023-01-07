@@ -23,12 +23,12 @@ public class App {
 	    context.getBean("StudentDao",StudentDao.class) ;
 		
 		               //INSERTION
-		Student student = new Student() ;
-		student.setID(37);
-		student.setName("Usman");
-		student.setCity("Faislabad");
-	int result = studentDao.insert(student) ;
-	System.out.println("Student added : " + result);
+//		Student student = new Student() ;
+//		student.setID(37);
+//		student.setName("Usman");
+//		student.setCity("Faislabad");
+//	int result = studentDao.insert(student) ;
+//	System.out.println("Student added : " + result);
 	
 	//}
 	  /*               //UPDATATION 
