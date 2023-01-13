@@ -1,5 +1,5 @@
 package com.springcore.jdbc.dao;
-
+// 'Dao' -> data access object
 import java.util.List;
 
 import com.springcore.jdbc.Entities.Student;

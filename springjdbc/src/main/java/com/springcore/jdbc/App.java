@@ -23,7 +23,7 @@ public class App {
 	    context.getBean("StudentDao",StudentDao.class) ;
 		
 		               //INSERTION
-//		Student student = new Student() ;
+//		Student student = new Student() ; 
 //		student.setID(37);
 //		student.setName("Usman");
 //		student.setCity("Faislabad");
